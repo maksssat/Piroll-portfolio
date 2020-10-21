@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@400;500;900&display=swap"
         rel="stylesheet">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 
@@ -17,11 +18,20 @@
         <div class="logo">
             <img src="/img/logo.svg" alt="">
         </div>
-        <nav>
+        <div class="button">
+            <a href="javascript:void(0);" onclick="openNav()">
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20"></rect>
+                    <rect y="30" width="100" height="20"></rect>
+                    <rect y="60" width="100" height="20"></rect>
+                </svg>
+            </a>
+        </div>
+        <nav id="nav" class="nav">
             <ul>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#works">WORKS</a></li>
-                <li><a href="#contacts">CONTACTS</a></li>
+                <li><a href="#about" onclick="closeNav()">ABOUT</a></li>
+                <li><a href="#works" onclick="closeNav()">WORKS</a></li>
+                <li><a href="#contacts" onclick="closeNav()">CONTACTS</a></li>
             </ul>
         </nav>
     </header>
