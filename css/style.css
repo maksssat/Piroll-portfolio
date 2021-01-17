@@ -159,7 +159,7 @@ nav ul li a {
 
 .works-item:hover .works-item-inner {
     visibility: visible;
-    background-color: rgba(255, 255, 255, 0.74);
+    background-color: rgba(255, 252, 241, 0.658);
 }
 
 .works-item-inner-text {

@@ -5,12 +5,6 @@ function openNav() {
     } else {
         x.className = "nav";
     }
-    // var y = document.getElementById("header");
-    // if (y.className === "header") {
-    //   y.className += " responsive";
-    // } else {
-    //   y.className = "header";
-    // }
 }
 
 function closeNav() {
@@ -18,8 +12,4 @@ function closeNav() {
     if (x.className === "nav responsive") {
         x.className = "nav";
     }
-    // var y = document.getElementById("header");
-    // if (y.className === "header responsive") {
-    //   y.className = "header";
-    // }
 }
